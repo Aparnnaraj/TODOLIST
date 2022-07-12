@@ -1,5 +1,5 @@
 const form =document.getElementsByTagName('form')[0];
-function validate() {
+function validate(callback) {
     var username = document.getElementById("username")
     var password = document.getElementById("pwd")
     var regexp = /^([a])([d])([m])([i])([n])$/
@@ -22,6 +22,7 @@ else if(!regexp2.test(password.value)) {
 else {
     return true;
 }
+callback();
 }
 
 form.addEventListener('submit' , function (event) {

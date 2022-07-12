@@ -19,7 +19,12 @@
           background-attachment: fixed; 
           background-size: 100% 100%;
         }
+
+
+
         </style>
+
+
 
 
 
@@ -41,13 +46,20 @@
             </div>
             </nav>
         </header>
+        
 
 
 
 
     <div id="todo">
-        <h1>List Daily Tasks</h1>
-        <button onclick="ajax();">To-Do List</button>
+        <h1>List of Daily Tasks</h1>
+        <button onclick="viewList();" id="tasks" >To-Do List</button>
+    </div>
+    <div >
+      <button onclick="checklist();" >CHECK STATUS</button>
+      <table  id="list">
+        <tr name="check"></tr>
+      </table>
     </div>
     <script src="./ajax.js"></script>
 
