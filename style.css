@@ -1,0 +1,44 @@
+.navbar{
+    color: greenyellow;
+  }
+  
+  
+  
+  .passwordInput{
+    margin-top: 5%; 
+    text-align :center;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  .login{
+      float: left;
+      /* border: 2px solid red; */
+      background-color: white;
+      height: 25em;
+      margin-top: 10%;
+      margin-right: 2%;
+      margin-left: 43%;
+      padding: 30px;
+      
+      
+    }
+    
+    .login h2{
+      text-align: center;
+    }
+    .login input{
+      height: 1.5em;
+    }
+    .login #login-button{
+      width: 100%;
+      height: 1.8em;
+      color: white;
+      background-color: dodgerblue;
+      border: 1px solid dodgerblue;
+    }
